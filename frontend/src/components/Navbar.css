@@ -1,0 +1,96 @@
+/* Navbar container to make it sticky */
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it stays on top */
+  background-color: #001529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 95px;
+}
+
+/* Flexbox for center alignment of the menu */
+.navbar-menu {
+  display: flex;
+  justify-content: left; /* Center all items */
+  align-items: center;
+  height: 95px; /* Adjust height to match the navbar */
+  width: 100%;
+}
+
+/* Home icon adjustments */
+.home-icon {
+  width: 70px; /* Increased the size of the home icon */
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 25px; /* Add top padding to align better */
+}
+
+/* Centering menu items */
+.menu-item-home {
+  padding: 0 20px; /* Add padding around the home icon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-menu-item {
+  padding: 0 20px; /* Padding for other menu items */
+}
+
+/* Right-align the Login and Register buttons */
+.menu-right {
+  margin-left: auto; /* Push the login and register to the right side */
+}
+
+/* Hover effects */
+.ant-menu-item:hover {
+  background-color: #bfa980; /* Gold hover effect */
+  transition: background-color 0.3s ease;
+}
+
+/* Icons alignment */
+.ant-menu-item a {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Spacing between icon and text */
+}
+
+/* Button for mobile menu icon (hamburger menu) */
+.mobile-menu-icon {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none; /* Hide menu on mobile */
+  }
+
+  .mobile-menu-icon {
+    display: block; /* Show hamburger menu icon on mobile */
+  }
+
+  .home-icon {
+    margin-top: -20px;
+    width: 50px; /* Adjusted smaller for mobile screens */
+  }
+
+  .ant-menu-item {
+    padding: 0 15px; /* Reduced padding for smaller screens */
+  }
+
+  .ant-drawer-content {
+    background-color: #001529; /* Dark background for drawer */
+  }
+}

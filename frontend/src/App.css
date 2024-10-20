@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Use modern, clean sans-serif */
+  background-color: #1F1F2E; /* Deep navy background */
+  color: #F9F9F9; /* Light text for readability */
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+/* General Heading Styles */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif; /* Elegant serif for a high-end look */
+  color: #BFA980; /* Gold for headings */
+}
+
+a {
+  color: #BFA980; /* Gold for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F9F9F9; /* Light hover effect */
+}
+
+/* Button Styling */
+button {
+  background-color: #BFA980; /* Gold button */
+  color: #1F1F2E; /* Dark text on button */
+  border: none;
+  padding: 15px 25px; /* Increased padding for larger buttons */
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #D1B586; /* Slightly lighter gold on hover */
+}
+
+/* Inputs */
+input, textarea {
+  background-color: #2B2B2B; /* Dark gray form elements */
+  color: #F9F9F9;
+  border: 1px solid #BFA980; /* Subtle gold border */
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #E0E0E0; /* Light gray for placeholder text */
+}

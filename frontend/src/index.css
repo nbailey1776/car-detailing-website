@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #bfa980; /* Gold */
+  --secondary-color: #000000; /* Black */
+  --text-color: #ffffff; /* White */
+  --background-color: #1a1a1a; /* Dark background */
+}
+body {
+  font-family: 'Playfair Display', serif;
+}

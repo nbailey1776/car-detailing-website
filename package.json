@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "react-reveal": "^1.2.2"
+  }
+}

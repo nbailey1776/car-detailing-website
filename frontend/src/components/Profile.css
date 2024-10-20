@@ -1,0 +1,25 @@
+/* src/components/Profile.css */
+.profile-container {
+  margin-top: 30px;
+    padding: 24px;
+    background-color: #f0f2f5;
+  }
+  
+  .profile-card {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+  
+  .appointments-section {
+    margin-top: 24px;
+  }
+  
+  .appointment-card {
+    background-color: #fff;
+  }
+  
+  .ant-descriptions-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
